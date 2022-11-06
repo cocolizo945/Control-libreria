@@ -48,7 +48,7 @@ namespace Control_libreria
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.Location = new System.Drawing.Point(12, 68);
+            this.label1.Location = new System.Drawing.Point(12, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(175, 23);
             this.label1.TabIndex = 0;
@@ -59,7 +59,7 @@ namespace Control_libreria
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label2.Location = new System.Drawing.Point(12, 115);
+            this.label2.Location = new System.Drawing.Point(12, 85);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(175, 23);
             this.label2.TabIndex = 1;
@@ -70,7 +70,7 @@ namespace Control_libreria
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Location = new System.Drawing.Point(12, 166);
+            this.label3.Location = new System.Drawing.Point(12, 136);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(175, 23);
             this.label3.TabIndex = 2;
@@ -81,7 +81,7 @@ namespace Control_libreria
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label4.Location = new System.Drawing.Point(12, 215);
+            this.label4.Location = new System.Drawing.Point(12, 185);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(175, 23);
             this.label4.TabIndex = 3;
@@ -90,35 +90,35 @@ namespace Control_libreria
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(204, 68);
+            this.txtUsuario.Location = new System.Drawing.Point(204, 38);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(218, 20);
             this.txtUsuario.TabIndex = 4;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(204, 115);
+            this.txtPassword.Location = new System.Drawing.Point(204, 85);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(218, 20);
             this.txtPassword.TabIndex = 5;
             // 
             // txtConPassword
             // 
-            this.txtConPassword.Location = new System.Drawing.Point(204, 169);
+            this.txtConPassword.Location = new System.Drawing.Point(204, 139);
             this.txtConPassword.Name = "txtConPassword";
             this.txtConPassword.Size = new System.Drawing.Size(218, 20);
             this.txtConPassword.TabIndex = 6;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(204, 218);
+            this.txtNombre.Location = new System.Drawing.Point(204, 188);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(218, 20);
             this.txtNombre.TabIndex = 7;
             // 
             // btnRegistrer
             // 
-            this.btnRegistrer.Location = new System.Drawing.Point(441, 263);
+            this.btnRegistrer.Location = new System.Drawing.Point(441, 233);
             this.btnRegistrer.Name = "btnRegistrer";
             this.btnRegistrer.Size = new System.Drawing.Size(106, 50);
             this.btnRegistrer.TabIndex = 8;
@@ -130,7 +130,7 @@ namespace Control_libreria
             // 
             this.cboTipo.FormattingEnabled = true;
             this.cboTipo.Items.AddRange(new object[] { "Administrador", "Vendedor" });
-            this.cboTipo.Location = new System.Drawing.Point(204, 263);
+            this.cboTipo.Location = new System.Drawing.Point(204, 233);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(218, 21);
             this.cboTipo.TabIndex = 9;
@@ -139,7 +139,7 @@ namespace Control_libreria
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label5.Location = new System.Drawing.Point(12, 260);
+            this.label5.Location = new System.Drawing.Point(12, 230);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(175, 23);
             this.label5.TabIndex = 10;

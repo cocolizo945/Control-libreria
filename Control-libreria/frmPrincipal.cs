@@ -580,6 +580,7 @@ namespace Control_libreria
         {
             txt1.ReadOnly = true;
             btnBorrar.Enabled = true;
+            bntCreate.Enabled = false;
             switch (tablas)
             {
                 case "usuarios":
@@ -1171,7 +1172,26 @@ namespace Control_libreria
                         break;
 
                 }
+
+                txt1.ReadOnly = false;
             }
+        }
+
+        private void btnClean_Click(object sender, EventArgs e)
+        {
+            if (tablas=="usuarios" || tablas=="tb_auditoria" || tablas=="tb_eliminados")
+            {
+                clear();
+                bntCreate.Enabled = false;
+                txt1.ReadOnly = false;
+            }
+            else
+            {
+                clear();
+                bntCreate.Enabled = true;
+                txt1.ReadOnly = false;
+            }
+            
         }
     }
 }

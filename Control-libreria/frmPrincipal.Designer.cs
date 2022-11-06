@@ -69,6 +69,7 @@ namespace Control_libreria
             this.button2 = new System.Windows.Forms.Button();
             this.bntCreate = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
+            this.btnClean = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGen)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -176,14 +177,14 @@ namespace Control_libreria
             // auditoriaToolStripMenuItem
             // 
             this.auditoriaToolStripMenuItem.Name = "auditoriaToolStripMenuItem";
-            this.auditoriaToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.auditoriaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.auditoriaToolStripMenuItem.Text = "Auditoria";
             this.auditoriaToolStripMenuItem.Click += new System.EventHandler(this.auditoriaToolStripMenuItem_Click);
             // 
             // eliminadosToolStripMenuItem
             // 
             this.eliminadosToolStripMenuItem.Name = "eliminadosToolStripMenuItem";
-            this.eliminadosToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.eliminadosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.eliminadosToolStripMenuItem.Text = "Eliminados";
             this.eliminadosToolStripMenuItem.Click += new System.EventHandler(this.eliminadosToolStripMenuItem_Click);
             // 
@@ -406,11 +407,23 @@ namespace Control_libreria
             this.btnBorrar.UseVisualStyleBackColor = true;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
+            // btnClean
+            // 
+            this.btnClean.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClean.Location = new System.Drawing.Point(773, 549);
+            this.btnClean.Name = "btnClean";
+            this.btnClean.Size = new System.Drawing.Size(86, 43);
+            this.btnClean.TabIndex = 24;
+            this.btnClean.Text = "Limpiar\r\n";
+            this.btnClean.UseVisualStyleBackColor = true;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1073, 603);
+            this.Controls.Add(this.btnClean);
             this.Controls.Add(this.bntCreate);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.txt8);
@@ -445,6 +458,8 @@ namespace Control_libreria
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.Button btnClean;
 
         private System.Windows.Forms.Button bntCreate;
         private System.Windows.Forms.Button btnBorrar;
