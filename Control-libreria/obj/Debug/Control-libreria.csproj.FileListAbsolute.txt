@@ -18,12 +18,12 @@ D:\Documents\RiderProjects\Control-libreria\Control-libreria\bin\Debug\MySql.Dat
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\bin\Debug\MySql.Web.xml
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control-libreria.csprojAssemblyReference.cache
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.exe.config
+D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.frmPrincipal.resources
+D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.frmRegistro.resources
+D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.Form1.resources
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.Properties.Resources.resources
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control-libreria.csproj.GenerateResource.cache
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control-libreria.csproj.CoreCompileInputs.cache
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control-libreria.csproj.CopyComplete
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.exe
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.pdb
-D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.Form1.resources
-D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.frmPrincipal.resources
-D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.frmRegistro.resources
