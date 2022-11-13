@@ -27,3 +27,4 @@ D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control-l
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control-libreria.csproj.CopyComplete
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.exe
 D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.pdb
+D:\Documents\RiderProjects\Control-libreria\Control-libreria\obj\Debug\Control_libreria.frmCreate.resources
