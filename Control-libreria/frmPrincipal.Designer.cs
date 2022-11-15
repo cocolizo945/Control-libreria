@@ -48,23 +48,8 @@ namespace Control_libreria
             this.eliminadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lbl1 = new System.Windows.Forms.Label();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.lbl3 = new System.Windows.Forms.Label();
-            this.lbl6 = new System.Windows.Forms.Label();
             this.txt1 = new System.Windows.Forms.TextBox();
-            this.txt2 = new System.Windows.Forms.TextBox();
-            this.txt3 = new System.Windows.Forms.TextBox();
-            this.cboType = new System.Windows.Forms.ComboBox();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.txt4 = new System.Windows.Forms.TextBox();
-            this.lbl4 = new System.Windows.Forms.Label();
-            this.txt5 = new System.Windows.Forms.TextBox();
-            this.lbl5 = new System.Windows.Forms.Label();
-            this.txt6 = new System.Windows.Forms.TextBox();
-            this.txt7 = new System.Windows.Forms.TextBox();
-            this.lbl7 = new System.Windows.Forms.Label();
-            this.txt8 = new System.Windows.Forms.TextBox();
-            this.lbl8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.bntCreate = new System.Windows.Forms.Button();
@@ -177,14 +162,14 @@ namespace Control_libreria
             // auditoriaToolStripMenuItem
             // 
             this.auditoriaToolStripMenuItem.Name = "auditoriaToolStripMenuItem";
-            this.auditoriaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.auditoriaToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.auditoriaToolStripMenuItem.Text = "Auditoria";
             this.auditoriaToolStripMenuItem.Click += new System.EventHandler(this.auditoriaToolStripMenuItem_Click);
             // 
             // eliminadosToolStripMenuItem
             // 
             this.eliminadosToolStripMenuItem.Name = "eliminadosToolStripMenuItem";
-            this.eliminadosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.eliminadosToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.eliminadosToolStripMenuItem.Text = "Eliminados";
             this.eliminadosToolStripMenuItem.Click += new System.EventHandler(this.eliminadosToolStripMenuItem_Click);
             // 
@@ -208,39 +193,6 @@ namespace Control_libreria
             this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbl1.Visible = false;
             // 
-            // lbl2
-            // 
-            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(12, 510);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(145, 23);
-            this.lbl2.TabIndex = 4;
-            this.lbl2.Text = "Usuario";
-            this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl2.Visible = false;
-            // 
-            // lbl3
-            // 
-            this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Location = new System.Drawing.Point(12, 544);
-            this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(145, 23);
-            this.lbl3.TabIndex = 5;
-            this.lbl3.Text = "Contraseña";
-            this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl3.Visible = false;
-            // 
-            // lbl6
-            // 
-            this.lbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl6.Location = new System.Drawing.Point(319, 547);
-            this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(140, 23);
-            this.lbl6.TabIndex = 6;
-            this.lbl6.Text = "Tipo de Usuario";
-            this.lbl6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl6.Visible = false;
-            // 
             // txt1
             // 
             this.txt1.Location = new System.Drawing.Point(163, 479);
@@ -248,32 +200,6 @@ namespace Control_libreria
             this.txt1.Size = new System.Drawing.Size(122, 20);
             this.txt1.TabIndex = 7;
             this.txt1.Visible = false;
-            // 
-            // txt2
-            // 
-            this.txt2.Location = new System.Drawing.Point(163, 513);
-            this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(122, 20);
-            this.txt2.TabIndex = 8;
-            this.txt2.Visible = false;
-            // 
-            // txt3
-            // 
-            this.txt3.Location = new System.Drawing.Point(163, 547);
-            this.txt3.Name = "txt3";
-            this.txt3.Size = new System.Drawing.Size(122, 20);
-            this.txt3.TabIndex = 9;
-            this.txt3.Visible = false;
-            // 
-            // cboType
-            // 
-            this.cboType.FormattingEnabled = true;
-            this.cboType.Items.AddRange(new object[] { "Administrador", "Vendedor" });
-            this.cboType.Location = new System.Drawing.Point(465, 547);
-            this.cboType.Name = "cboType";
-            this.cboType.Size = new System.Drawing.Size(121, 21);
-            this.cboType.TabIndex = 10;
-            this.cboType.Visible = false;
             // 
             // btnUpdate
             // 
@@ -284,91 +210,6 @@ namespace Control_libreria
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "Actualizar";
             this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
-            // 
-            // txt4
-            // 
-            this.txt4.Location = new System.Drawing.Point(464, 482);
-            this.txt4.Name = "txt4";
-            this.txt4.Size = new System.Drawing.Size(122, 20);
-            this.txt4.TabIndex = 13;
-            this.txt4.Visible = false;
-            // 
-            // lbl4
-            // 
-            this.lbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4.Location = new System.Drawing.Point(319, 479);
-            this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(140, 23);
-            this.lbl4.TabIndex = 12;
-            this.lbl4.Text = "nombre";
-            this.lbl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl4.Visible = false;
-            // 
-            // txt5
-            // 
-            this.txt5.Location = new System.Drawing.Point(464, 516);
-            this.txt5.Name = "txt5";
-            this.txt5.Size = new System.Drawing.Size(122, 20);
-            this.txt5.TabIndex = 15;
-            this.txt5.Visible = false;
-            // 
-            // lbl5
-            // 
-            this.lbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl5.Location = new System.Drawing.Point(319, 513);
-            this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(140, 23);
-            this.lbl5.TabIndex = 14;
-            this.lbl5.Text = "nombre";
-            this.lbl5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl5.Visible = false;
-            // 
-            // txt6
-            // 
-            this.txt6.Location = new System.Drawing.Point(465, 547);
-            this.txt6.Name = "txt6";
-            this.txt6.Size = new System.Drawing.Size(122, 20);
-            this.txt6.TabIndex = 17;
-            this.txt6.Visible = false;
-            // 
-            // txt7
-            // 
-            this.txt7.Location = new System.Drawing.Point(737, 485);
-            this.txt7.Name = "txt7";
-            this.txt7.Size = new System.Drawing.Size(122, 20);
-            this.txt7.TabIndex = 19;
-            this.txt7.Visible = false;
-            // 
-            // lbl7
-            // 
-            this.lbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl7.Location = new System.Drawing.Point(592, 482);
-            this.lbl7.Name = "lbl7";
-            this.lbl7.Size = new System.Drawing.Size(140, 23);
-            this.lbl7.TabIndex = 18;
-            this.lbl7.Text = "nombre";
-            this.lbl7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl7.Visible = false;
-            // 
-            // txt8
-            // 
-            this.txt8.Location = new System.Drawing.Point(737, 519);
-            this.txt8.Name = "txt8";
-            this.txt8.Size = new System.Drawing.Size(122, 20);
-            this.txt8.TabIndex = 21;
-            this.txt8.Visible = false;
-            // 
-            // lbl8
-            // 
-            this.lbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl8.Location = new System.Drawing.Point(592, 516);
-            this.lbl8.Name = "lbl8";
-            this.lbl8.Size = new System.Drawing.Size(140, 23);
-            this.lbl8.TabIndex = 20;
-            this.lbl8.Text = "nombre";
-            this.lbl8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl8.Visible = false;
             // 
             // button1
             // 
@@ -426,23 +267,8 @@ namespace Control_libreria
             this.Controls.Add(this.btnClean);
             this.Controls.Add(this.bntCreate);
             this.Controls.Add(this.btnBorrar);
-            this.Controls.Add(this.txt8);
-            this.Controls.Add(this.lbl8);
-            this.Controls.Add(this.txt7);
-            this.Controls.Add(this.lbl7);
-            this.Controls.Add(this.txt6);
-            this.Controls.Add(this.txt5);
-            this.Controls.Add(this.lbl5);
-            this.Controls.Add(this.txt4);
-            this.Controls.Add(this.lbl4);
             this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.cboType);
-            this.Controls.Add(this.txt3);
-            this.Controls.Add(this.txt2);
             this.Controls.Add(this.txt1);
-            this.Controls.Add(this.lbl6);
-            this.Controls.Add(this.lbl3);
-            this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btnlogout);
             this.Controls.Add(this.panel1);
@@ -464,31 +290,12 @@ namespace Control_libreria
         private System.Windows.Forms.Button bntCreate;
         private System.Windows.Forms.Button btnBorrar;
 
-        private System.Windows.Forms.TextBox txt5;
-        private System.Windows.Forms.Label lbl5;
-        private System.Windows.Forms.TextBox txt6;
-        private System.Windows.Forms.TextBox txt7;
-        private System.Windows.Forms.Label lbl7;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txt8;
-        private System.Windows.Forms.Label lbl8;
         private System.Windows.Forms.Button button2;
-
-        private System.Windows.Forms.TextBox txt4;
-        private System.Windows.Forms.Label lbl4;
 
         private System.Windows.Forms.Button btnUpdate;
 
         private System.Windows.Forms.TextBox txt1;
-        private System.Windows.Forms.TextBox txt2;
-        private System.Windows.Forms.TextBox txt3;
-        private System.Windows.Forms.ComboBox cboType;
-
-        private System.Windows.Forms.Label lbl6;
-
-        private System.Windows.Forms.Label lbl3;
-
-        private System.Windows.Forms.Label lbl2;
 
         private System.Windows.Forms.Label lbl1;
 

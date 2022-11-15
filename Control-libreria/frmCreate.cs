@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
@@ -9,6 +10,8 @@ namespace Control_libreria
     {
         MySqlConnection conn = conexion.conex();
         string tables = principal.Tablas;
+        frmPrincipal form = (frmPrincipal)Application.OpenForms["frmPrincipal"];
+       
         
         public frmCreate()
         {
@@ -136,6 +139,7 @@ namespace Control_libreria
                                 cmd2.Parameters.AddWithValue("@nombre", txt2.Text.ToUpper());
                                 cmd2.Parameters.AddWithValue("@ap", txt3.Text.ToUpper());
                                 cmd2.Parameters.AddWithValue("@naci", txt4.Text);
+                                conn.Open();
                                 cmd2.ExecuteNonQuery();
                                 conn.Close();
                             }
@@ -169,6 +173,7 @@ namespace Control_libreria
                                 cmd3.Parameters.AddWithValue("@email", txt4.Text);
                                 cmd3.Parameters.AddWithValue("@tel", Int64.Parse(txt5.Text));
                                 cmd3.Parameters.AddWithValue("@idedito", txt1.Text);
+                                conn.Open();
                                 cmd3.ExecuteNonQuery();
                                 conn.Close();
 
@@ -200,6 +205,7 @@ namespace Control_libreria
                                 MySqlCommand cmd3 = new MySqlCommand(upd3, conn);
                                 cmd3.Parameters.AddWithValue("@nomtema", txt2.Text.ToUpper());
                                 cmd3.Parameters.AddWithValue("@idtema", txt1.Text);
+                                conn.Open();
                                 cmd3.ExecuteNonQuery();
                                 conn.Close();
                             }
@@ -248,6 +254,7 @@ namespace Control_libreria
                                 cmd4.Parameters.AddWithValue("@edito", txt7.Text);
                                 cmd4.Parameters.AddWithValue("@tema", txt8.Text);
                                 cmd4.Parameters.AddWithValue("@libro", txt1.Text);
+                                conn.Open();
                                 cmd4.ExecuteNonQuery();
                                 conn.Close();
 
@@ -281,6 +288,7 @@ namespace Control_libreria
                                 MySqlCommand cmd6 = new MySqlCommand(upd6, conn);
                                 cmd6.Parameters.AddWithValue("@nomnaci", txt2.Text.ToUpper());
                                 cmd6.Parameters.AddWithValue("@idnac", txt1.Text);
+                                conn.Open();
                                 cmd6.ExecuteNonQuery();
                                 conn.Close();
                             }
@@ -299,8 +307,11 @@ namespace Control_libreria
                         break;
                   
                     }
-                }
+                
+                form.updatedvg();
+                this.Close();
             }
+        }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {

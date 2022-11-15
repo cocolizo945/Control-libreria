@@ -223,7 +223,7 @@ namespace Control_libreria
             this.btnCreate.TabIndex = 39;
             this.btnCreate.Text = "Ingresar";
             this.btnCreate.UseVisualStyleBackColor = true;
-            this.btnCreate.Click += new System.EventHandler(this.button1_Click);
+            this.btnCreate.Click += new System.EventHandler((sender, e) => this.button1_Click(sender, e));
             // 
             // btnCancel
             // 
