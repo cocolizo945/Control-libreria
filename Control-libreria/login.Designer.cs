@@ -70,6 +70,7 @@
             this.txtpws.PasswordChar = '*';
             this.txtpws.Size = new System.Drawing.Size(187, 20);
             this.txtpws.TabIndex = 4;
+            this.txtpws.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpws_KeyPress);
             // 
             // btnlogin
             // 
@@ -94,6 +95,7 @@
             this.Controls.Add(this.label1);
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
         }

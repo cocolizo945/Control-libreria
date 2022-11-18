@@ -25,6 +25,24 @@ namespace Control_libreria
         
         public void btnlogin_Click(object sender, EventArgs e)
         {
+           login();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void txtpws_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (int)Keys.Enter)
+            {
+                login();
+            }
+        }
+
+        private void login()
+        {
             string user = txtUser.Text;
             string pass = txtpws.Text;
             
@@ -47,6 +65,5 @@ namespace Control_libreria
                 MessageBox.Show(ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-        
     }
 }

@@ -71,12 +71,15 @@ namespace Control_libreria
             // dgvGen
             // 
             this.dgvGen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvGen.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvGen.ImeMode = System.Windows.Forms.ImeMode.On;
             this.dgvGen.Location = new System.Drawing.Point(0, 0);
             this.dgvGen.Name = "dgvGen";
             this.dgvGen.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvGen.Size = new System.Drawing.Size(1070, 423);
             this.dgvGen.TabIndex = 0;
             this.dgvGen.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGen_CellContentDoubleClick);
+            this.dgvGen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dgvGen_KeyPress);
             // 
             // btnlogout
             // 
@@ -204,12 +207,13 @@ namespace Control_libreria
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(873, 547);
+            this.btnUpdate.Location = new System.Drawing.Point(892, 544);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 44);
+            this.btnUpdate.Size = new System.Drawing.Size(75, 47);
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "Actualizar";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // button1
             // 
@@ -228,9 +232,9 @@ namespace Control_libreria
             // bntCreate
             // 
             this.bntCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntCreate.Location = new System.Drawing.Point(873, 482);
+            this.bntCreate.Location = new System.Drawing.Point(892, 479);
             this.bntCreate.Name = "bntCreate";
-            this.bntCreate.Size = new System.Drawing.Size(75, 44);
+            this.bntCreate.Size = new System.Drawing.Size(75, 47);
             this.bntCreate.TabIndex = 23;
             this.bntCreate.Text = "Ingresar";
             this.bntCreate.UseVisualStyleBackColor = true;
@@ -251,11 +255,11 @@ namespace Control_libreria
             // btnClean
             // 
             this.btnClean.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClean.Location = new System.Drawing.Point(773, 549);
+            this.btnClean.Location = new System.Drawing.Point(800, 544);
             this.btnClean.Name = "btnClean";
-            this.btnClean.Size = new System.Drawing.Size(86, 43);
+            this.btnClean.Size = new System.Drawing.Size(86, 47);
             this.btnClean.TabIndex = 24;
-            this.btnClean.Text = "Limpiar\r\n";
+            this.btnClean.Text = "Imprimir";
             this.btnClean.UseVisualStyleBackColor = true;
             this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
